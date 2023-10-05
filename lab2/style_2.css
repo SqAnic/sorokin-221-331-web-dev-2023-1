@@ -8,14 +8,22 @@
     display: inline;
 }
 
-.container {
+.container_auth {
     font-size: 20px;
-    max-width: 650px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+
+.container_form {
+    font-size: 20px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .text-center {
     text-align: center;
+    font-size: 50px;
 }
 
 input, textarea, select {
@@ -45,6 +53,7 @@ a {
     background-image: url(images/авторизация.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
+    height: 100vh;
 }
 
 footer {
