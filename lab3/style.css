@@ -1,0 +1,182 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url("images_lab3/space.jpg");
+    background-size: cover; /* Масштабирование изображения по размеру контейнера */
+    background-position: center; /* Центрирование изображения по горизонтали и вертикали */
+    background-repeat: no-repeat; /* Запрет повторения фона */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-menu {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 20px; /* Внешний отступ сверху и снизу */
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали по центру */
+    justify-content: center;
+    height: 40px; /* Устанавливаем высоту в 70 пикселей */
+}
+
+.main-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Внешний отступ от левого края */
+    display: flex;
+    justify-content: center; /* Центрирование элементов списка по горизонтали */
+}
+
+.main-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px; /* Внутренний отступ для ссылок */
+    border: 2px solid rgb(8, 182, 182); /* Тонкая синяя граница */
+    border-radius: 5px; /* Закругленные углы для границы */
+}
+
+.main_index {
+    flex: 1; /* Занимает все доступное пространство между header и footer */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    flex: 0 0 auto; /* Зафиксировать footer внизу */
+}
+
+/* Стили для главной страницы */
+.feature {
+    background-color: #f0f0f0;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%; /* Ограничиваем максимальную ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    
+}
+
+.feature-item {
+    flex: 0 1 calc(40% - 10px); /* Размер по 2 элемента в строку с отступами */
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.feature-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #ccc;
+    padding: 20px;
+    height: 60%;
+}
+
+/* Стили для страницы "О нас" */
+
+/* Стили для .main_about */
+.main_about {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Стили для .about-content */
+.about-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.centered-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.value {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.value h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.value p {
+    font-size: 16px;
+}
+

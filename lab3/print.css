@@ -1,0 +1,22 @@
+
+.nav-menu, footer {
+    display: none;
+}
+
+body, h1, h2, p, ul, li {
+    font-family: Arial, sans-serif;
+    color: #000; /* Черный цвет текста */
+}
+
+
+body, main, .about-content, .value {
+    background: none;
+}
+
+
+h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4; 
+}
+
