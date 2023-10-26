@@ -10,30 +10,29 @@ body {
 
 header {
     background-image: url("images_lab3/space.jpg");
-    background-size: cover; /* Масштабирование изображения по размеру контейнера */
-    background-position: center; /* Центрирование изображения по горизонтали и вертикали */
-    background-repeat: no-repeat; /* Запрет повторения фона */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 .nav-menu {
-    /* background-color: #333; */
     color: #fff;
-    padding: 10px 20px; /* Внешний отступ сверху и снизу */
+    padding: 10px 20px;
     display: flex;
-    align-items: center; /* Выравнивание по вертикали по центру */
+    align-items: center; 
     justify-content: center;
-    height: 40px; /* Устанавливаем высоту в 70 пикселей */
+    height: 40px;
 }
 
 .main-menu ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Внешний отступ от левого края */
+    margin: 0; 
     display: flex;
-    justify-content: center; /* Центрирование элементов списка по горизонтали */
+    justify-content: center;
 }
 
 .main-menu ul li {
@@ -45,18 +44,18 @@ header {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
-    padding: 5px 10px; /* Внутренний отступ для ссылок */
-    border: 2px solid rgb(8, 182, 182); /* Тонкая синяя граница */
-    border-radius: 5px; /* Закругленные углы для границы */
+    padding: 5px 10px; 
+    border: 2px solid rgb(8, 182, 182); 
+    border-radius: 5px;
 }
 
 .main_index {
-    flex: 1; /* Занимает все доступное пространство между header и footer */
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f0f0f0
+    background-color: #f0f0f0;
 }
 
 footer {
@@ -64,10 +63,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    flex: 0 0 auto; /* Зафиксировать footer внизу */
+    flex: 0 0 auto; 
 }
 
-/* Стили для главной страницы */
 .feature {
     background-color: #f0f0f0;
     padding: 20px;
@@ -79,13 +77,13 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%; /* Ограничиваем максимальную ширину контейнера */
-    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    max-width: 90%; 
+    margin: 0 auto; 
     
 }
 
 .feature-item {
-    flex: 0 1 calc(40% - 10px); /* Размер по 2 элемента в строку с отступами */
+    flex: 0 1 calc(40% - 10px); 
     background-color: #fff;
     padding: 10px;
     margin: 5px;
@@ -124,7 +122,6 @@ footer {
 
 /* Стили для страницы "О нас" */
 
-/* Стили для .main_about */
 .main_about {
     flex: 1;
     display: flex;
@@ -134,7 +131,6 @@ footer {
     background-color: #f0f0f0;
 }
 
-/* Стили для .about-content */
 .about-content {
     background-color: #f0f0f0;
     padding: 20px;
@@ -179,4 +175,3 @@ footer {
 .value p {
     font-size: 16px;
 }
-
